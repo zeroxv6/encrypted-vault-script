@@ -1,3 +1,4 @@
+```text
 [01//DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 This is a zero-knowledge hybrid storage architecture. It transforms a
@@ -73,4 +74,3 @@ are visible during the mounting sequence.
 LAYER_1 (Physical): LUKS / dm-crypt
 LAYER_2 (Network) : NaCl Secretbox (XSalsa20 + Poly1305)
 KEY_DERIVATION    : Scrypt (N=16384, r=8, p=1)
-
