@@ -25,7 +25,11 @@ $ sudo cryptsetup close vault_mapper
 # AUTH: zeroxv6
 # DESC: UNLOCKS HARDWARE AND MOUNTS LOCAL VAULT
 
-UUID="9b999207-04b7-4b5b-99b6-f5c0d41c982a"
+# UUID_DETECTION_PROTOCOL:
+# Identify your partition (e.g., sdc1) and run:
+# lsblk -dno UUID /dev/sdc1
+UUID="REPLACE_WITH_YOUR_UUID"
+
 MOUNT_POINT="$HOME/Vault"
 
 echo "» STATUS: INITIATING_HARDWARE_UNLOCK"
